@@ -1,6 +1,7 @@
 const nameInput = document.querySelector("#name");
 const employeeId = document.querySelector("#employeeId");
 const Time = document.querySelector("#Time");
+const Date = document.querySelector("#date");
 const reasons = document.querySelector("#reasons");
 const success = document.querySelector("#success");
 const errorNodes = document.querySelectorAll(".error");
@@ -36,6 +37,7 @@ function clearMessages(){
     }
     nameInput.classList.remove("error-border")
     employeeId.classList.remove("error-border")
+    date.classList.remove("error-border")
     reasons.classList.remove("error-border")
 
 }
